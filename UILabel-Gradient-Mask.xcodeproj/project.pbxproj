@@ -13,6 +13,7 @@
 		2F3B8E1F21E0A33B003C1404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B8E1E21E0A33B003C1404 /* Assets.xcassets */; };
 		2F3B8E2221E0A33B003C1404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B8E2021E0A33B003C1404 /* LaunchScreen.storyboard */; };
 		2F3B8E2F21E0D301003C1404 /* ShimmerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B8E2E21E0D301003C1404 /* ShimmerLabel.swift */; };
+		2F3B8E3121E0E547003C1404 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B8E3021E0E547003C1404 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F3B8E2121E0A33B003C1404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F3B8E2321E0A33B003C1404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F3B8E2E21E0D301003C1404 /* ShimmerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerLabel.swift; sourceTree = "<group>"; };
+		2F3B8E3021E0E547003C1404 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2F3B8E1721E0A339003C1404 /* AppDelegate.swift */,
 				2F3B8E1921E0A339003C1404 /* ViewController.swift */,
+				2F3B8E3021E0E547003C1404 /* SecondViewController.swift */,
 				2F3B8E1B21E0A339003C1404 /* Main.storyboard */,
 				2F3B8E1E21E0A33B003C1404 /* Assets.xcassets */,
 				2F3B8E2021E0A33B003C1404 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3B8E3121E0E547003C1404 /* SecondViewController.swift in Sources */,
 				2F3B8E1A21E0A339003C1404 /* ViewController.swift in Sources */,
 				2F3B8E1821E0A339003C1404 /* AppDelegate.swift in Sources */,
 				2F3B8E2F21E0D301003C1404 /* ShimmerLabel.swift in Sources */,

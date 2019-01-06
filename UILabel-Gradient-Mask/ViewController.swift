@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor(white: 1, alpha: 0.1)
         
+        
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         let builderObject = ShimmerObject.init(text: "shndRS",
                                                font: UIFont(name: "Papyrus", size: 73)!,
                                                textAlignment: .center, animationDuration: 2,
@@ -24,7 +30,18 @@ class ViewController: UIViewController {
                                                maskLabelTextColor: .purple)
         
         SHNDShimmerFactory.create(builder: builderObject)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
 }
 
